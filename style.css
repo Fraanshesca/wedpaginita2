@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    background-color: #1D2539;
+    width: 100%;
+    height: 900px;
+    margin-bottom: 300px;
+}
+.Logo {
+    position: relative;
+    width: 50px;
+    height: 30px;
+    top: 20px;
+    left: 270px;
+    color: white;
+    font-size: 2.5rem;
+}
+.nav-head {
+    display: grid;
+    grid-template-columns: repeat(6, 6%);
+    margin: auto;
+    margin-top: 10px;
+    list-style: none;
+    width: 80%;
+    justify-content: center;
+    
+}
+.nav-head a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.search {
+    position: relative;
+    right: 270px;
+    height: 30px;
+    top: 35px;
+}
+.main-title {
+    display: grid;
+    grid-template-columns: 60% 20%;
+    grid-template-rows: 200px;
+    margin: 100px;
+    justify-content: center;
+    
+}
+.main-title h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+}
+.main-title p {
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    margin-top: 40px;
+}
+.main-imagenes {
+    display: grid;
+    
+    grid-template-columns: repeat(3, 25%);
+    justify-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.link-business {
+    
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    justify-content: center;
+    justify-items: center;
+    margin: 50px;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    grid-template-rows: 190px 405px;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    column-gap: 20px;
+    padding-top: 100px;
+}
+.services div h3 {
+    font-size: 3rem;
+}
+.services div p {
+    font-size: 1rem;
+    line-height: 2.9rem;
+    
+}
+.s-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.s-1 h2 {
+    font-size: 3.5rem;
+}
+.s-2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.s-2p-r {
+    font-size: 1.2rem;
+    line-height: 1.5rem !important;
+}
